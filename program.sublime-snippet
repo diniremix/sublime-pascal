@@ -3,6 +3,7 @@
 program ${1};
 	uses crt;
 begin
+	clrscr;
 	writeln('${2:hello world pascal}');
 readkey;
 end.

@@ -29,8 +29,8 @@
 
 		{ "trigger": "procedure", "contents": "procedure $1;\nbegin\n\t${2}\nend;" },		
 		{ "trigger": "function", "contents": "function $1($2):$3\nbegin\n\t${1}:=\nend;" },
-		{ "trigger": "Length", "contents": "Length($1)" }
-		{ "trigger": "Upcase", "contents": "Upcase($1)" }
-		{ "trigger": "with", "contents": "with ($1) do\nbegin\n\t${2}\nend;" },
+		{ "trigger": "Length", "contents": "Length($1)" },
+		{ "trigger": "Upcase", "contents": "Upcase($1)" },
+		{ "trigger": "with", "contents": "with ($1) do\nbegin\n\t${2}\nend;" }
 	]
 }
