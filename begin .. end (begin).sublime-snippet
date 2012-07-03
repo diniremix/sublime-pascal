@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+begin
+	${0}
+end;
+]]></content>
+	<description>begin ... end</description>
+    <tabTrigger>begin</tabTrigger>
+    <scope>source.pascal</scope> 
+</snippet>

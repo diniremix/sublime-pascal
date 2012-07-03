@@ -1,0 +1,32 @@
+{
+	"scope": "source.pascal",
+	"completions":
+	[
+		"pascal",
+
+		{ "trigger": "write", "contents": "write('$1');" },
+		{ "trigger": "writeln", "contents": "writeln('$1');" },
+		{ "trigger": "read", "contents": "read($1);" },		
+		{ "trigger": "readln", "contents": "readln($1);" },		
+		{ "trigger": "readkey", "contents": "readkey;" },		
+
+		{ "trigger": "Integer", "contents": "Integer" },
+		{ "trigger": "Real", "contents": "Real" },		
+		{ "trigger": "Single", "contents": "Single" },		
+		{ "trigger": "Double", "contents": "Double" },		
+		{ "trigger": "String", "contents": "String" },		
+		{ "trigger": "Char", "contents": "Char" },		
+		{ "trigger": "Byte", "contents": "Byte" },		
+		{ "trigger": "Word", "contents": "Word" },		
+		{ "trigger": "const", "contents": "const" },		
+		{ "trigger": "Boolean", "contents": "Boolean" },		
+		{ "trigger": "Longint", "contents": "Longint" },		
+		{ "trigger": "array", "contents": "array[$1...$2]" },		
+
+		{ "trigger": "procedure", "contents": "procedure $1;\nbegin\n\t${2}\nend;" },		
+		{ "trigger": "function", "contents": "function $1($2):$3\nbegin\n\t${1}:=\nend;" },
+		{ "trigger": "Length", "contents": "Length($1)" }
+		{ "trigger": "Upcase", "contents": "Upcase($1)" }
+		{ "trigger": "with", "contents": "with ($1) do\nbegin\n\t${2}\nend;" },
+	]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+try
+	$0
+finally
+	$1
+end;
+]]></content>
+	<description>try ... finally</description>
+    <tabTrigger>try</tabTrigger>
+    <scope>source.pascal</scope> 
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+program ${1};
+	uses crt;
+begin
+	writeln('${2:hello world pascal}');
+readkey;
+end.
+
+]]></content>
+	<description>program</description>
+    <tabTrigger>program</tabTrigger>
+    <scope>source.pascal</scope> 
+</snippet>
