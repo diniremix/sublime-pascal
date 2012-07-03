@@ -13,6 +13,8 @@ Si no posee el [Control de paquetes][package_control]  de [Sublime Text 2][subli
 
 ### Esta version incluye: ###
 * program, if, if else, for, while, repeat, case
+* pascalL.sublime-completions, para el autocompletado de las palabras reservadas del lenguaje y tipos de datos
+* autocompletado para procedure, function, with
 
 
 [sublime]: http://www.sublimetext.com/
