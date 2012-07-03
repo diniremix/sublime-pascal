@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-while (${0}) do
+while (${1}) do
 begin
-	${1}
+	$0
 end;
 ]]></content>
 	<description>while loop</description>

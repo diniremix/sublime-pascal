@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+case (${1}) of
+	$0: ${2}
+	else
+		writeln('default');
+	end;
+]]></content>
+	<description>case of</description>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.pascal</scope> 
+</snippet>

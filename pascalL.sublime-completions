@@ -9,6 +9,10 @@
 		{ "trigger": "read", "contents": "read($1);" },		
 		{ "trigger": "readln", "contents": "readln($1);" },		
 		{ "trigger": "readkey", "contents": "readkey;" },		
+		{ "trigger": "clrscr", "contents": "clrscr;" },		
+		{ "trigger": "keypressed", "contents": "keypressed;" },		
+		{ "trigger": "uses", "contents": "uses" },		
+		{ "trigger": "crt", "contents": "crt" },		
 
 		{ "trigger": "Integer", "contents": "Integer" },
 		{ "trigger": "Real", "contents": "Real" },		
