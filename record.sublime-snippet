@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:myrecord} = record;    
+	${2:myfield} : $3
+   	${2} : $3    
+end;
+]]></content>
+	<description>record</description>
+    <tabTrigger>record</tabTrigger>
+    <scope>source.pascal</scope> 
+</snippet>

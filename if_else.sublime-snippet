@@ -8,7 +8,7 @@ else begin
 	$0
 end;
 ]]></content>
-	<description>if ... end</description>
+	<description>if else ... end</description>
     <tabTrigger>if</tabTrigger>
     <scope>source.pascal</scope> 
 </snippet>

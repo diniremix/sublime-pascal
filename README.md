@@ -12,9 +12,11 @@ Si no posee el [Control de paquetes][package_control]  de [Sublime Text 2][subli
 * [holylinux.net][holy_linux]
 
 ### Esta version incluye: ###
-* program, if, if else, for, while, repeat, case
+* program, if, if else, for, while, repeat, case, record
 * pascalL.sublime-completions, para el autocompletado de las palabras reservadas del lenguaje y tipos de datos
 * autocompletado para procedure, function, with
+* autocompletado de ciclos, unidades
+* sistema de construccion fpc.sublime-build usando [fpc][fpc_compiler]
 
 
 [sublime]: http://www.sublimetext.com/
@@ -22,3 +24,4 @@ Si no posee el [Control de paquetes][package_control]  de [Sublime Text 2][subli
 [sublimeforum]:http://www.sublimetext.com/forum/viewtopic.php?f=4&p=26148
 [holy_linux]:http://www.holylinux.net/main/tools
 [pascal_lang]:http://es.wikipedia.org/wiki/Pascal_(lenguaje_de_programaci%C3%B3n)
+[fpc_compiler]:http://www.freepascal.org/
