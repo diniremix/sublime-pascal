@@ -15,9 +15,9 @@ Si no posee el [Control de paquetes][package_control]  de [Sublime Text 2][subli
 * program, if, if else, for, while, repeat, case, record
 * pascalL.sublime-completions, para el autocompletado de las palabras reservadas del lenguaje y tipos de datos
 * autocompletado para procedure, function, with
-* autocompletado de ciclos, unidades
-* sistema de construccion fpc.sublime-build usando [fpc][fpc_compiler]
-
+* autocompletado de ciclos, unidades, try, clases, record
+* agregado el sistema de construccion fpc.sublime-build usando [fpc][fpc_compiler]
+* agregadas palabras reservadas faltantes y tipos de datos
 
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
