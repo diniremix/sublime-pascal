@@ -5,7 +5,6 @@
 	<key>fileTypes</key>
 	<array>
 		<string>pas</string>
-		<string>p</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\b(?i:(function|package|procedure|try|type))\b</string>
@@ -19,13 +18,12 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:(absolute|abstract|all|and|and_then|array|as|asm|assembler|attribute|begin|bindable|case|class|const|constructor|destructor|delay|div|do|downto|else|end|except|export|exports|external|far|file|finalization|finally|for|forward|goto|if|implementation|import|in|index|inherited|initialization|inline|interface|interrupt|is|label|library|mod|module|name|near|nil|not|object|of|only|operator|or|or_else|otherwise|packed|pow|private|program|property|protected|public|published|qualified|record|repeat|resident|restricted|segment|set|shl|shr|string|then|to|try|type|unit|until|uses|value|var|view|virtual|while|with|xor))\b</string>
+			<string>\b(?i:(absolute|abstract|all|and|and_then|array|as|asm|assembler|attribute|begin|bindable|case|class|const|constructor|destructor|delay|div|do|downto|else|end|except|export|exports|external|far|file|finalization|finally|for|forward|goto|if|inc|implementation|import|in|index|inherited|initialization|inline|interface|interrupt|is|label|library|mod|module|name|near|nil|not|object|of|only|operator|or|or_else|otherwise|packed|pow|private|property|protected|public|published|qualified|record|repeat|resident|restricted|segment|set|shl|shr|then|to|try|type|unit|until|uses|value|var|view|virtual|while|with|xor|write|writeln))\b</string>
 			<key>name</key>
 			<string>keyword.control.pascal</string>
 		</dict>
 		<dict>
 			<key>captures</key>
-
 			<dict>
 				<key>1</key>
 				<dict>
@@ -43,6 +41,7 @@
 			<key>name</key>
 			<string>meta.function.prototype.pascal</string>
 		</dict>
+
 		<dict>
 			<key>captures</key>
 			<dict>
@@ -58,10 +57,32 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(?i:(function|procedure))\b\s+(\w+(\.\w+)?)</string>
+			<string>\b(?i:(function|procedure|program))\b\s+(\w+(\.\w+)?)</string>
 			<key>name</key>
 			<string>meta.function.pascal</string>
 		</dict>
+		<!-- prueba-->
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.function.pascal</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.pascal</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(?i:(Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln))\b</string>
+			<key>name</key>
+			<string>meta.function.pascal</string>
+		</dict>
+		<!-- prueba-->
+
 		<dict>
 			<key>match</key>
 			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>

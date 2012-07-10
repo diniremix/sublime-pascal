@@ -13,6 +13,9 @@
 		{ "trigger": "write", "contents": "write('$1');" },
 		{ "trigger": "writeln", "contents": "writeln('$1');" },
 		{ "trigger": "uses", "contents": "uses" },		
+		{ "trigger": "inc", "contents": "inc($1);" },		
+		{ "trigger": "forward", "contents": "forward;" },		
+		{ "trigger": "external", "contents": "external;" },		
 
 		{ "trigger": "Shortint", "contents": "Shortint" },
 		{ "trigger": "Integer", "contents": "Integer" },
@@ -34,12 +37,16 @@
 		{ "trigger": "String", "contents": "String" },		
 		{ "trigger": "Char", "contents": "Char" },		
 		{ "trigger": "const", "contents": "const" },		
-		{ "trigger": "array", "contents": "array[$1...$2] of" },		
+		{ "trigger": "array", "contents": "array[$1..$2] of" },		
 
 		{ "trigger": "procedure", "contents": "procedure $1;\nbegin\n\t${2}\nend;" },		
 		{ "trigger": "function", "contents": "function $1($2):$3\nbegin\n\t${1}:=\nend;" },
 		{ "trigger": "Length", "contents": "Length($1)" },
 		{ "trigger": "Upcase", "contents": "Upcase($1)" },
-		{ "trigger": "with", "contents": "with ($1) do\nbegin\n\t${2}\nend;" }
+		{ "trigger": "with", "contents": "with ($1) do\nbegin\n\t${2}\nend;" },
+
+		{ "trigger": "gotoxy", "contents": "gotoxy($1,$2);" },
+		{ "trigger": "textcolor", "contents": "textcolor($1);" },
+		{ "trigger": "textbackground", "contents": "textbackground($1);" }
 	]
 }
