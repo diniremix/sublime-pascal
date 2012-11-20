@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+procedure ${1:myrecord}($2);
+begin
+	$3
+end;
+]]></content>
+	<description>procedure</description>
+    <tabTrigger>procedure</tabTrigger>
+    <scope>source.pascal</scope>
+</snippet>
