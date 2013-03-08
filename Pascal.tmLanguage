@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>pas</string>
+		<string>dpr</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\b(?i:(function|package|procedure|try|type))\b</string>
