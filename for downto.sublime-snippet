@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for ${1:i} := ${2:max} downto ${3:0} do
+begin
+	${0}
+end;
+]]></content>
+	<description>for...downto</description>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.pascal</scope>
+</snippet>
