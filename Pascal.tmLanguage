@@ -78,7 +78,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(?i:(Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln))\b</string>
+			<string>\b(?i:(Shortint|Integer|Longint|Byte|Word|Boolean|WordBool|LongBool|ByteBool|Real|Single|Double|Extended|Comp|String|Char|Length|Upcase|textbackground|textcolor|gotoxy|crt|clrscr|readkey|read|readln|sqr|sqrt|random|new|dispose))\b</string>
 			<key>name</key>
 			<string>meta.function.pascal</string>
 		</dict>
